@@ -1,0 +1,8 @@
+[
+  {"code": "IN", "name": "India", "currency": "INR", "region": "Asia"},
+  {"code": "JP", "name": "Japan", "currency": "JPY", "region": "Asia"},
+  {"code": "TH", "name": "Thailand", "currency": "THB", "region": "Asia"},
+  {"code": "FR", "name": "France", "currency": "EUR", "region": "Europe"},
+  {"code": "AE", "name": "United Arab Emirates", "currency": "AED", "region": "Middle East"},
+  {"code": "ID", "name": "Indonesia", "currency": "IDR", "region": "Asia"}
+]

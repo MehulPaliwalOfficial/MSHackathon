@@ -1,0 +1,11 @@
+[
+  {"iata": "DEL", "city": "Delhi", "country": "India", "lat": 28.5562, "lon": 77.1000},
+  {"iata": "BOM", "city": "Mumbai", "country": "India", "lat": 19.0896, "lon": 72.8656},
+  {"iata": "BLR", "city": "Bengaluru", "country": "India", "lat": 13.1986, "lon": 77.7066},
+  {"iata": "HND", "city": "Tokyo", "country": "Japan", "lat": 35.5494, "lon": 139.7798},
+  {"iata": "NRT", "city": "Tokyo", "country": "Japan", "lat": 35.7720, "lon": 140.3929},
+  {"iata": "KIX", "city": "Osaka", "country": "Japan", "lat": 34.4347, "lon": 135.2441},
+  {"iata": "BKK", "city": "Bangkok", "country": "Thailand", "lat": 13.6900, "lon": 100.7501},
+  {"iata": "CDG", "city": "Paris", "country": "France", "lat": 49.0097, "lon": 2.5479},
+  {"iata": "DXB", "city": "Dubai", "country": "United Arab Emirates", "lat": 25.2532, "lon": 55.3657}
+]

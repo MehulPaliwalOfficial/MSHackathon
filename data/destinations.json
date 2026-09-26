@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Japan",
+    "country_code": "JP",
+    "currency": "JPY",
+    "timezone": "Asia/Tokyo",
+    "aliases": ["japan", "tokyo", "kyoto", "osaka"],
+    "best_months": ["March", "April", "May", "October", "November"],
+    "daily_budget_inr": {"budget": 4500, "balanced": 8000, "comfort": 14000, "luxury": 26000},
+    "international_flight_estimate_inr": {"India": 40000, "default": 70000},
+    "cities": [
+      {"name": "Tokyo", "lat": 35.6762, "lon": 139.6503, "summary": "Neon neighborhoods, food markets, gardens and day trips."},
+      {"name": "Kyoto", "lat": 35.0116, "lon": 135.7681, "summary": "Temples, geisha districts, tea culture and bamboo groves."},
+      {"name": "Osaka", "lat": 34.6937, "lon": 135.5023, "summary": "Street food, nightlife and an easy base for Kansai."},
+      {"name": "Hakone", "lat": 35.2324, "lon": 139.1069, "summary": "Fuji views, lake scenery and hot springs."},
+      {"name": "Nara", "lat": 34.6851, "lon": 135.8048, "summary": "Ancient temples, deer park and compact heritage walks."}
+    ],
+    "suggested_routes": [
+      {"min_days": 1, "max_days": 4, "cities": [{"name": "Tokyo", "days": 3}, {"name": "Hakone", "days": 1}]},
+      {"min_days": 5, "max_days": 8, "cities": [{"name": "Tokyo", "days": 3}, {"name": "Kyoto", "days": 2}, {"name": "Osaka", "days": 2}, {"name": "Nara", "days": 1}]},
+      {"min_days": 9, "max_days": 14, "cities": [{"name": "Tokyo", "days": 4}, {"name": "Hakone", "days": 1}, {"name": "Kyoto", "days": 3}, {"name": "Osaka", "days": 2}, {"name": "Hiroshima", "days": 2}, {"name": "Nara", "days": 1}]}
+    ],
+    "activities": [
+      {"name": "Tsukiji Outer Market breakfast walk", "city": "Tokyo", "categories": ["food", "culture"], "duration_hours": 2.5, "cost_inr": 1600, "opening_hours": "08:00-14:00", "rain_friendly": true, "description": "Sample tamagoyaki, sushi bowls and snacks while learning market etiquette."},
+      {"name": "Asakusa Senso-ji and Nakamise Street", "city": "Tokyo", "categories": ["culture", "history", "shopping"], "duration_hours": 3, "cost_inr": 600, "opening_hours": "06:00-17:00", "rain_friendly": true, "description": "Classic temple visit with traditional snack lanes and photo stops."},
+      {"name": "Ueno Park and National Museum highlights", "city": "Tokyo", "categories": ["culture", "museum", "nature"], "duration_hours": 3.5, "cost_inr": 1200, "opening_hours": "09:30-17:00", "rain_friendly": true, "description": "Park stroll plus a curated museum section; skip museum if not desired."},
+      {"name": "Shibuya, Harajuku and Meiji Shrine walk", "city": "Tokyo", "categories": ["culture", "food", "shopping", "nature"], "duration_hours": 4, "cost_inr": 900, "opening_hours": "All day; shrine sunrise-sunset", "rain_friendly": false, "description": "A contrast of youth culture, street snacks, crossings and forested shrine paths."},
+      {"name": "Arashiyama bamboo and riverside walk", "city": "Kyoto", "categories": ["nature", "culture"], "duration_hours": 4, "cost_inr": 1000, "opening_hours": "Early morning recommended", "rain_friendly": false, "description": "Bamboo grove, river views and quiet temple corners before crowds."},
+      {"name": "Fushimi Inari sunrise torii hike", "city": "Kyoto", "categories": ["nature", "culture", "hiking"], "duration_hours": 3, "cost_inr": 300, "opening_hours": "24 hours", "rain_friendly": false, "description": "Walk through thousands of gates; turn around at viewpoints if time or mobility is limited."},
+      {"name": "Gion lanes and tea culture evening", "city": "Kyoto", "categories": ["culture", "food"], "duration_hours": 2.5, "cost_inr": 1800, "opening_hours": "17:00-21:00", "rain_friendly": true, "description": "Historic streets, etiquette notes and an optional tea tasting."},
+      {"name": "Nishiki Market tasting crawl", "city": "Kyoto", "categories": ["food", "culture"], "duration_hours": 2.5, "cost_inr": 1600, "opening_hours": "10:00-17:00", "rain_friendly": true, "description": "Pickled vegetables, mochi, skewers and local sweets in a covered market."},
+      {"name": "Dotonbori street food night", "city": "Osaka", "categories": ["food", "nightlife", "culture"], "duration_hours": 3, "cost_inr": 2200, "opening_hours": "17:00-late", "rain_friendly": true, "description": "Takoyaki, okonomiyaki and canal lights in Osaka's best-known food district."},
+      {"name": "Osaka Castle Park", "city": "Osaka", "categories": ["history", "nature", "culture"], "duration_hours": 2.5, "cost_inr": 800, "opening_hours": "09:00-17:00", "rain_friendly": false, "description": "Castle grounds, seasonal gardens and skyline views."},
+      {"name": "Nara Park and Todai-ji", "city": "Nara", "categories": ["nature", "culture", "history"], "duration_hours": 5, "cost_inr": 1200, "opening_hours": "08:00-17:00", "rain_friendly": false, "description": "Easy day trip with deer park and the Great Buddha hall."},
+      {"name": "Hakone loop and Lake Ashi viewpoints", "city": "Hakone", "categories": ["nature", "relaxation"], "duration_hours": 6, "cost_inr": 4500, "opening_hours": "09:00-17:00", "rain_friendly": false, "description": "Mountain railway, ropeway, lake crossing and a slower scenic day."}
+    ],
+    "transport": {"local": "Use IC cards, metro and regional trains; taxis are costly.", "intercity": "Compare Shinkansen with highway buses; passes only pay off on heavy rail routes."}
+  },
+  {
+    "name": "Thailand",
+    "country_code": "TH",
+    "currency": "THB",
+    "timezone": "Asia/Bangkok",
+    "aliases": ["thailand", "bangkok", "phuket", "chiang mai", "krabi"],
+    "best_months": ["November", "December", "January", "February"],
+    "daily_budget_inr": {"budget": 3000, "balanced": 5500, "comfort": 9500, "luxury": 18000},
+    "international_flight_estimate_inr": {"India": 22000, "default": 50000},
+    "cities": [
+      {"name": "Bangkok", "lat": 13.7563, "lon": 100.5018, "summary": "Temples, street food, markets and river transport."},
+      {"name": "Chiang Mai", "lat": 18.7883, "lon": 98.9853, "summary": "Old city temples, cafes, mountains and ethical elephant sanctuaries."},
+      {"name": "Krabi", "lat": 8.0863, "lon": 98.9063, "summary": "Limestone cliffs, island boats and relaxed beach days."}
+    ],
+    "suggested_routes": [
+      {"min_days": 1, "max_days": 5, "cities": [{"name": "Bangkok", "days": 3}, {"name": "Krabi", "days": 2}]},
+      {"min_days": 6, "max_days": 10, "cities": [{"name": "Bangkok", "days": 3}, {"name": "Chiang Mai", "days": 3}, {"name": "Krabi", "days": 3}]}
+    ],
+    "activities": [
+      {"name": "Bangkok street food and temple loop", "city": "Bangkok", "categories": ["food", "culture"], "duration_hours": 5, "cost_inr": 1800, "opening_hours": "09:00-21:00", "rain_friendly": true, "description": "Wat Pho, ferry ride and street-food stops."},
+      {"name": "Chiang Mai old city temples by bicycle", "city": "Chiang Mai", "categories": ["culture", "nature"], "duration_hours": 4, "cost_inr": 1200, "opening_hours": "08:00-17:00", "rain_friendly": false, "description": "A slow loop through compact heritage streets."},
+      {"name": "Krabi island-hopping boat day", "city": "Krabi", "categories": ["beach", "nature"], "duration_hours": 7, "cost_inr": 3500, "opening_hours": "08:00-16:00", "rain_friendly": false, "description": "Estimate only; confirm sea conditions locally."}
+    ],
+    "transport": {"local": "Use BTS/MRT, ferries, songthaews and ride-hailing.", "intercity": "Domestic flights or sleeper trains depending on budget and time."}
+  },
+  {
+    "name": "France",
+    "country_code": "FR",
+    "currency": "EUR",
+    "timezone": "Europe/Paris",
+    "aliases": ["france", "paris", "nice", "lyon"],
+    "best_months": ["April", "May", "June", "September", "October"],
+    "daily_budget_inr": {"budget": 7500, "balanced": 13000, "comfort": 21000, "luxury": 42000},
+    "international_flight_estimate_inr": {"India": 52000, "default": 80000},
+    "cities": [
+      {"name": "Paris", "lat": 48.8566, "lon": 2.3522, "summary": "Museums, neighborhoods, bakeries and classic landmarks."},
+      {"name": "Lyon", "lat": 45.7640, "lon": 4.8357, "summary": "Food heritage, old town passages and rivers."},
+      {"name": "Nice", "lat": 43.7102, "lon": 7.2620, "summary": "Mediterranean promenade and day trips."}
+    ],
+    "suggested_routes": [
+      {"min_days": 1, "max_days": 6, "cities": [{"name": "Paris", "days": 4}, {"name": "Lyon", "days": 2}]},
+      {"min_days": 7, "max_days": 12, "cities": [{"name": "Paris", "days": 4}, {"name": "Lyon", "days": 2}, {"name": "Nice", "days": 3}]}
+    ],
+    "activities": [
+      {"name": "Paris neighborhood bakery walk", "city": "Paris", "categories": ["food", "culture"], "duration_hours": 3, "cost_inr": 2300, "opening_hours": "08:00-12:00", "rain_friendly": true, "description": "Croissants, market lanes and neighborhood context."},
+      {"name": "Louvre highlights", "city": "Paris", "categories": ["museum", "culture", "history"], "duration_hours": 3, "cost_inr": 1900, "opening_hours": "09:00-18:00; closed Tuesday", "rain_friendly": true, "description": "Timed-entry museum visit; confirm hours before booking."},
+      {"name": "Nice old town and seaside promenade", "city": "Nice", "categories": ["beach", "food", "culture"], "duration_hours": 4, "cost_inr": 1500, "opening_hours": "All day", "rain_friendly": false, "description": "Market snacks, viewpoints and an easy waterfront walk."}
+    ],
+    "transport": {"local": "Metro, trams and walking work well in major cities.", "intercity": "Book trains early; high-speed trains can be cheaper off-peak."}
+  },
+  {
+    "name": "India",
+    "country_code": "IN",
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "aliases": ["india", "rajasthan", "kerala", "goa", "delhi"],
+    "best_months": ["October", "November", "December", "January", "February", "March"],
+    "daily_budget_inr": {"budget": 2200, "balanced": 4500, "comfort": 8000, "luxury": 18000},
+    "international_flight_estimate_inr": {"India": 12000, "default": 45000},
+    "cities": [
+      {"name": "Delhi", "lat": 28.6139, "lon": 77.2090, "summary": "History, food walks and gateway connections."},
+      {"name": "Jaipur", "lat": 26.9124, "lon": 75.7873, "summary": "Forts, bazaars and royal architecture."},
+      {"name": "Goa", "lat": 15.2993, "lon": 74.1240, "summary": "Beaches, Portuguese heritage and seafood."}
+    ],
+    "suggested_routes": [
+      {"min_days": 1, "max_days": 5, "cities": [{"name": "Delhi", "days": 2}, {"name": "Jaipur", "days": 3}]},
+      {"min_days": 6, "max_days": 10, "cities": [{"name": "Delhi", "days": 2}, {"name": "Jaipur", "days": 2}, {"name": "Goa", "days": 3}]}
+    ],
+    "activities": [
+      {"name": "Old Delhi food walk", "city": "Delhi", "categories": ["food", "culture", "history"], "duration_hours": 3, "cost_inr": 1200, "opening_hours": "17:00-21:00", "rain_friendly": true, "description": "Guided-style route through classic snack lanes."},
+      {"name": "Amber Fort and Jaipur bazaars", "city": "Jaipur", "categories": ["culture", "history", "shopping"], "duration_hours": 5, "cost_inr": 1400, "opening_hours": "09:00-17:00", "rain_friendly": false, "description": "Fort visit plus handicraft market time."},
+      {"name": "Goa beach and Fontainhas day", "city": "Goa", "categories": ["beach", "culture", "food"], "duration_hours": 6, "cost_inr": 1700, "opening_hours": "All day", "rain_friendly": false, "description": "Beach time, Latin Quarter walk and local food."}
+    ],
+    "transport": {"local": "Metro, app cabs, autos and local drivers depending on city.", "intercity": "Trains and domestic flights vary widely; book early around holidays."}
+  },
+  {
+    "name": "United Arab Emirates",
+    "country_code": "AE",
+    "currency": "AED",
+    "timezone": "Asia/Dubai",
+    "aliases": ["uae", "dubai", "abu dhabi", "emirates"],
+    "best_months": ["November", "December", "January", "February", "March"],
+    "daily_budget_inr": {"budget": 6500, "balanced": 11500, "comfort": 19000, "luxury": 40000},
+    "international_flight_estimate_inr": {"India": 18000, "default": 60000},
+    "cities": [
+      {"name": "Dubai", "lat": 25.2048, "lon": 55.2708, "summary": "Modern landmarks, malls, desert activities and global food."},
+      {"name": "Abu Dhabi", "lat": 24.4539, "lon": 54.3773, "summary": "Grand mosque, museums, mangroves and family attractions."}
+    ],
+    "suggested_routes": [
+      {"min_days": 1, "max_days": 6, "cities": [{"name": "Dubai", "days": 4}, {"name": "Abu Dhabi", "days": 2}]}
+    ],
+    "activities": [
+      {"name": "Old Dubai creek, souks and abra", "city": "Dubai", "categories": ["culture", "food", "shopping"], "duration_hours": 4, "cost_inr": 1500, "opening_hours": "10:00-20:00", "rain_friendly": true, "description": "Affordable heritage route by metro and boat."},
+      {"name": "Desert sunset experience", "city": "Dubai", "categories": ["nature", "adventure"], "duration_hours": 6, "cost_inr": 4500, "opening_hours": "15:00-21:00", "rain_friendly": false, "description": "Operator prices vary; confirm inclusions and ethical practices."},
+      {"name": "Sheikh Zayed Grand Mosque", "city": "Abu Dhabi", "categories": ["culture", "architecture"], "duration_hours": 3, "cost_inr": 800, "opening_hours": "09:00-22:00", "rain_friendly": true, "description": "Major cultural landmark with dress-code requirements."}
+    ],
+    "transport": {"local": "Metro is strong in Dubai; taxis are useful but can add up.", "intercity": "Dubai-Abu Dhabi buses are economical; taxis/private transfers are faster."}
+  }
+]

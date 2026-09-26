@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-travel-agent"
+version = "1.0.0"
+description = "Modular AI Travel Agent with FastAPI, fallback travel integrations and itinerary planning."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "fastapi>=0.111,<1.0",
+  "uvicorn[standard]>=0.30,<1.0",
+  "pydantic>=2.7,<3.0",
+  "python-dotenv>=1.0,<2.0",
+  "httpx>=0.27,<1.0"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0,<9.0"]
+
+[project.scripts]
+ai-travel-agent = "main:cli"
+
+[tool.setuptools]
+py-modules = ["config", "main", "run"]
+packages = ["app", "ai", "integrations"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

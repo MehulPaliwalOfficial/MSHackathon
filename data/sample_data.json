@@ -1,0 +1,28 @@
+{
+  "hotels": [
+    {"destination": "Japan", "city": "Tokyo", "name": "Ueno Compact Stay", "type": "business hotel", "style": "budget", "price_inr": 6200, "rating": 4.1, "amenities": ["near metro", "laundry", "small rooms"], "location_notes": "Good rail access for first-time visitors."},
+    {"destination": "Japan", "city": "Kyoto", "name": "Kyoto Machiya Guesthouse", "type": "guesthouse", "style": "budget", "price_inr": 5400, "rating": 4.2, "amenities": ["shared kitchen", "traditional feel"], "location_notes": "Useful for Nishiki and Gion if booked early."},
+    {"destination": "Japan", "city": "Osaka", "name": "Namba Value Hotel", "type": "hotel", "style": "budget", "price_inr": 5800, "rating": 4.0, "amenities": ["food district", "metro access"], "location_notes": "Convenient for Dotonbori without late-night taxis."},
+    {"destination": "Japan", "city": "Tokyo", "name": "Shinjuku Comfort Base", "type": "hotel", "style": "balanced", "price_inr": 10500, "rating": 4.3, "amenities": ["central", "breakfast", "metro access"], "location_notes": "Higher cost but reduces commuting."},
+    {"destination": "Thailand", "city": "Bangkok", "name": "Sukhumvit Transit Hotel", "type": "hotel", "style": "balanced", "price_inr": 4800, "rating": 4.1, "amenities": ["BTS access", "pool"], "location_notes": "Easy airport and nightlife access."},
+    {"destination": "France", "city": "Paris", "name": "Left Bank Simple Rooms", "type": "hotel", "style": "budget", "price_inr": 9800, "rating": 3.9, "amenities": ["metro nearby", "walkable"], "location_notes": "Paris rooms are compact at this price."},
+    {"destination": "India", "city": "Jaipur", "name": "Pink City Heritage Haveli", "type": "heritage hotel", "style": "balanced", "price_inr": 4200, "rating": 4.4, "amenities": ["breakfast", "heritage decor"], "location_notes": "Good for bazaars and fort day trips."},
+    {"destination": "United Arab Emirates", "city": "Dubai", "name": "Al Fahidi Budget Hotel", "type": "hotel", "style": "budget", "price_inr": 7000, "rating": 4.0, "amenities": ["metro nearby", "old dubai"], "location_notes": "Cheaper than beach districts."}
+  ],
+  "restaurants": [
+    {"destination": "Japan", "city": "Tokyo", "name": "Standing Sushi Bar Estimate", "cuisine": "Japanese", "meal": "lunch", "price_inr": 1400, "dietary_notes": ["pescatarian"]},
+    {"destination": "Japan", "city": "Kyoto", "name": "Nishiki Snack Stalls", "cuisine": "Japanese", "meal": "lunch", "price_inr": 1200, "dietary_notes": ["vegetarian options limited; check broth"]},
+    {"destination": "Japan", "city": "Osaka", "name": "Okonomiyaki Counter", "cuisine": "Osaka street food", "meal": "dinner", "price_inr": 1500, "dietary_notes": ["vegetarian possible if requested"]},
+    {"destination": "Thailand", "city": "Bangkok", "name": "Street Food Court", "cuisine": "Thai", "meal": "dinner", "price_inr": 700, "dietary_notes": ["vegetarian possible; ask for no fish sauce"]},
+    {"destination": "France", "city": "Paris", "name": "Bakery and Market Lunch", "cuisine": "French", "meal": "lunch", "price_inr": 1600, "dietary_notes": ["vegetarian friendly"]},
+    {"destination": "India", "city": "Delhi", "name": "Old Delhi Chaat Stops", "cuisine": "North Indian", "meal": "dinner", "price_inr": 700, "dietary_notes": ["vegetarian friendly"]},
+    {"destination": "United Arab Emirates", "city": "Dubai", "name": "Karama Indian-Arabic Cafeteria", "cuisine": "Indian/Arabic", "meal": "dinner", "price_inr": 900, "dietary_notes": ["vegetarian friendly"]}
+  ],
+  "transport_tips": {
+    "Japan": ["Load a Suica/Pasmo-compatible IC card where available.", "For 8 days, price individual tickets against any rail pass before buying.", "Use luggage forwarding when changing cities if budget allows."],
+    "Thailand": ["Use BTS/MRT in Bangkok to avoid traffic.", "Confirm island boats the day before in monsoon months."],
+    "France": ["Book timed museum slots and train tickets early.", "Validate metro tickets and beware pickpockets in crowded stations."],
+    "India": ["Book trains early and keep buffer around road transfers.", "Use reputable local drivers for long sightseeing days."],
+    "United Arab Emirates": ["Stay near metro to reduce taxi costs.", "Respect dress codes for mosques and cultural spaces."]
+  }
+}
